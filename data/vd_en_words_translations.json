@@ -1,0 +1,460 @@
+{
+    "translations": [
+        {
+            "VN": "ga",
+            "EN": "station, gas"
+        },
+        {
+            "VN": "trạm",
+            "EN": "station, stations"
+        },
+        {
+            "VN": "đặt chỗ",
+            "EN": "make a reservation, reservation"
+        },
+        {
+            "VN": "biết",
+            "EN": "knows, know, knowing"
+        },
+        {
+            "VN": "không",
+            "EN": "do not, no, weren't"
+        },
+        {
+            "VN": "xe buýt",
+            "EN": "bus"
+        },
+        {
+            "VN": "cần",
+            "EN": "need, require/requires (verb), need/needs (verb)"
+        },
+        {
+            "VN": "sân bay",
+            "EN": "airport, airports"
+        },
+        {
+            "VN": "vé",
+            "EN": "ticket"
+        },
+        {
+            "VN": "xe taxi",
+            "EN": "taxi, taxis, (a) taxi"
+        },
+        {
+            "VN": "tàu hoả",
+            "EN": "train"
+        },
+        {
+            "VN": "máy bay",
+            "EN": "airplane, plane"
+        },
+        {
+            "VN": "bay",
+            "EN": "flies, blown, fly"
+        },
+        {
+            "VN": "bằng",
+            "EN": "with, as, equals"
+        },
+        {
+            "VN": "cảm ơn",
+            "EN": "thanks, thank you"
+        },
+        {
+            "VN": "đi du lịch",
+            "EN": "travelling, traveling, travel"
+        },
+        {
+            "VN": "từ điển",
+            "EN": "dictionary, dictionaries"
+        },
+        {
+            "VN": "rất",
+            "EN": "extremely, very much, so"
+        },
+        {
+            "VN": "vở",
+            "EN": "notebook"
+        },
+        {
+            "VN": "quyển",
+            "EN": "the, (classifier)"
+        },
+        {
+            "VN": "sách",
+            "EN": "book"
+        },
+        {
+            "VN": "đúng",
+            "EN": "right"
+        },
+        {
+            "VN": "câu trả lời",
+            "EN": "answer"
+        },
+        {
+            "VN": "thông minh",
+            "EN": "smart, intelligent"
+        },
+        {
+            "VN": "tốt",
+            "EN": "well, fine, great"
+        },
+        {
+            "VN": "câu hỏi",
+            "EN": "question"
+        },
+        {
+            "VN": "bạn học",
+            "EN": "classmate"
+        },
+        {
+            "VN": "bọn họ",
+            "EN": "they"
+        },
+        {
+            "VN": "cũng",
+            "EN": "too, also, as well"
+        },
+        {
+            "VN": "học sinh",
+            "EN": "student"
+        },
+        {
+            "VN": "ngôi trường",
+            "EN": "school"
+        },
+        {
+            "VN": "học",
+            "EN": "school, take lessons, to learn"
+        },
+        {
+            "VN": "khách sạn",
+            "EN": "hotel, hotels"
+        },
+        {
+            "VN": "làm việc",
+            "EN": "work, working, works"
+        },
+        {
+            "VN": "nhà vệ sinh",
+            "EN": "bathroom"
+        },
+        {
+            "VN": "món",
+            "EN": "dish, kind, (indicates item of food)"
+        },
+        {
+            "VN": "ngân hàng",
+            "EN": "bank"
+        },
+        {
+            "VN": "nổi tiếng",
+            "EN": "famous, popular"
+        },
+        {
+            "VN": "đó",
+            "EN": "that, those, there"
+        },
+        {
+            "VN": "cho tôi hỏi",
+            "EN": "excuse me"
+        },
+        {
+            "VN": "nhà hàng",
+            "EN": "restaurant"
+        },
+        {
+            "VN": "đâu",
+            "EN": "where, where is ... ?, which"
+        },
+        {
+            "VN": "ở đâu",
+            "EN": "where, where does ... ?, where is ... ?"
+        },
+        {
+            "VN": "căn nhà",
+            "EN": "house"
+        },
+        {
+            "VN": "sống",
+            "EN": "alive, live, living"
+        },
+        {
+            "VN": "chiếc",
+            "EN": "the, ones"
+        },
+        {
+            "VN": "ở",
+            "EN": "stayed, stayed in, has stayed in"
+        },
+        {
+            "VN": "xe ô tô",
+            "EN": "car"
+        },
+        {
+            "VN": "ăn",
+            "EN": "eats, ate, eating"
+        },
+        {
+            "VN": "súp",
+            "EN": "soup"
+        },
+        {
+            "VN": "bát",
+            "EN": "bowl"
+        },
+        {
+            "VN": "đây",
+            "EN": "this, is here, these"
+        },
+        {
+            "VN": "năm",
+            "EN": "years, 5, year"
+        },
+        {
+            "VN": "bốn",
+            "EN": "four, 4"
+        },
+        {
+            "VN": "mì",
+            "EN": "noodles"
+        },
+        {
+            "VN": "có",
+            "EN": "is, there are, with"
+        },
+        {
+            "VN": "phở",
+            "EN": "pho, phở"
+        },
+        {
+            "VN": "thích",
+            "EN": "like, likes"
+        },
+        {
+            "VN": "ba",
+            "EN": "third, father, dad"
+        },
+        {
+            "VN": "bàn",
+            "EN": "the table, table, the desk"
+        },
+        {
+            "VN": "bạn",
+            "EN": "friends, you, friendship"
+        },
+        {
+            "VN": "hai",
+            "EN": "two"
+        },
+        {
+            "VN": "chúng tôi",
+            "EN": "we, us"
+        },
+        {
+            "VN": "phải không",
+            "EN": "is there ... ?, do ... ?, were ... ?"
+        },
+        {
+            "VN": "đến",
+            "EN": "is, arrives, go"
+        },
+        {
+            "VN": "đến từ",
+            "EN": "are from, comes from, come from"
+        },
+        {
+            "VN": "chị gái",
+            "EN": "older sister"
+        },
+        {
+            "VN": "mẹ",
+            "EN": "mom"
+        },
+        {
+            "VN": "Nhật",
+            "EN": "Japan"
+        },
+        {
+            "VN": "không phải",
+            "EN": "not, is not, are not"
+        },
+        {
+            "VN": "anh",
+            "EN": "English, the United Kingdom, England"
+        },
+        {
+            "VN": "anh trai",
+            "EN": "older brother, elder brother"
+        },
+        {
+            "VN": "bố",
+            "EN": "dad, father"
+        },
+        {
+            "VN": "của",
+            "EN": "'s, of, '"
+        },
+        {
+            "VN": "bác sĩ",
+            "EN": "doctor"
+        },
+        {
+            "VN": "anh ấy",
+            "EN": "he, him"
+        },
+        {
+            "VN": "cô ấy",
+            "EN": "she, her"
+        },
+        {
+            "VN": "tiếng",
+            "EN": "hour, hours, classifier for languages"
+        },
+        {
+            "VN": "nói",
+            "EN": "spoken, speaks, to say"
+        },
+        {
+            "VN": "giáo viên",
+            "EN": "teacher"
+        },
+        {
+            "VN": "chúc ngủ ngon",
+            "EN": "good night"
+        },
+        {
+            "VN": "gặp lại sau",
+            "EN": "see you later"
+        },
+        {
+            "VN": "chào tạm biệt",
+            "EN": "bye, goodbye"
+        },
+        {
+            "VN": "buổi tối",
+            "EN": "evening, night"
+        },
+        {
+            "VN": "gặp",
+            "EN": "encountered, dealing, meeting"
+        },
+        {
+            "VN": "khoẻ",
+            "EN": "well, strong, fine"
+        },
+        {
+            "VN": "dạo này bạn thế nào",
+            "EN": "what's up, how are you doing"
+        },
+        {
+            "VN": "đói",
+            "EN": "hungry"
+        },
+        {
+            "VN": "mọi người",
+            "EN": "everybody, everyone, people"
+        },
+        {
+            "VN": "buổi sáng",
+            "EN": "morning"
+        },
+        {
+            "VN": "sáng",
+            "EN": "morning, bright, light"
+        },
+        {
+            "VN": "xin chào",
+            "EN": "hello, hi"
+        },
+        {
+            "VN": "muốn",
+            "EN": "want"
+        },
+        {
+            "VN": "đường",
+            "EN": "sugar"
+        },
+        {
+            "VN": "với",
+            "EN": "with, plus, at"
+        },
+        {
+            "VN": "sữa",
+            "EN": "milk"
+        },
+        {
+            "VN": "đá",
+            "EN": "ice"
+        },
+        {
+            "VN": "nóng",
+            "EN": "hot"
+        },
+        {
+            "VN": "và",
+            "EN": "and"
+        },
+        {
+            "VN": "một",
+            "EN": "an, a, first"
+        },
+        {
+            "VN": "tách",
+            "EN": "cup"
+        },
+        {
+            "VN": "trà",
+            "EN": "tea"
+        },
+        {
+            "VN": "vui lòng cho",
+            "EN": "please"
+        },
+        {
+            "VN": "cho",
+            "EN": "for, let, lets"
+        },
+        {
+            "VN": "cà phê",
+            "EN": "coffee"
+        },
+        {
+            "VN": "hay là",
+            "EN": "or"
+        },
+        {
+            "VN": "xin lỗi",
+            "EN": "apologize, sorry, excuse me"
+        },
+        {
+            "VN": "vâng",
+            "EN": "yes, (politely)"
+        },
+        {
+            "VN": "xin",
+            "EN": "beg, ask for, please"
+        },
+        {
+            "VN": "hộ chiếu",
+            "EN": "passport"
+        },
+        {
+            "VN": "nước",
+            "EN": "water, country, countries"
+        },
+        {
+            "VN": "người",
+            "EN": "people, (classifier for human), the"
+        },
+        {
+            "VN": "tôi",
+            "EN": "I"
+        },
+        {
+            "VN": "là",
+            "EN": "is, am, being"
+        }
+    ]
+}
