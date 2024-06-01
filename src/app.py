@@ -33,25 +33,35 @@ def select_quizz_words(words_dict: dict) -> dict:
 
     return selected_words
 
+
 def check_result(choice):
     if choice == selected_words_dict["EN"][0]:
         st.session_state["score"] += 1
+        st.session_state["bad_answer"] = ""
+        st.session_state["good_answer"] = f":green[That's right :wink:!]" 
     else:
         if st.session_state["score"] > st.session_state["best_score"]:
             st.session_state["best_score"] = st.session_state["score"]
         st.session_state["score"] = 0
-        
+        st.session_state["good_answer"] = ""
+        st.session_state["bad_answer"] = f':red[Incorrect, the good answer was "*{selected_words_dict["EN"][0]}*"]'
 
-if "score" not in st.session_state:
-    st.session_state["score"] = 0
 
 if "words_dict" not in st.session_state:
     st.session_state["words_dict"] = load_data()
 
+if "score" not in st.session_state:
+    st.session_state["score"] = 0
+
 if "best_score" not in st.session_state:
     st.session_state["best_score"] = 0
 
-# vn_to_en = True        
+if "good_answer" not in st.session_state:
+    st.session_state["good_answer"] = ""
+
+if "bad_answer" not in st.session_state:
+    st.session_state["bad_answer"] = ""
+
 selected_words_dict = select_quizz_words(words_dict=st.session_state["words_dict"])
 
 st.title("Hello Learners :wave:!")
@@ -78,5 +88,8 @@ with col4:
     word = selected_en_words_dict_shuffled[3]
     st.button(label=word, key=word, on_click=check_result, args=[word], use_container_width=True)
 
-st.subheader(body=f"Your current score is: {st.session_state['score']}")
-st.subheader(body=f"Your best score is: {st.session_state['best_score']}")
+st.write(st.session_state["good_answer"] if st.session_state["good_answer"] else st.session_state["bad_answer"])
+
+st.write(f"Your current score is: **{st.session_state['score']}**")
+st.divider()
+st.write(f"Your best score is: **{st.session_state['best_score']}**")
