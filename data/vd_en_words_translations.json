@@ -1,6 +1,138 @@
 {
     "translations": [
         {
+            "VN": "con gái",
+            "EN": "daughter, girl"
+        },
+        {
+            "VN": "vợ",
+            "EN": "wife, spouse"
+        },
+        {
+            "VN": "chồng",
+            "EN": "husband, husbands"
+        },
+        {
+            "VN": "con trai",
+            "EN": "son, boy"
+        },
+        {
+            "VN": "em gái",
+            "EN": "younger sister"
+        },
+        {
+            "VN": "diễn",
+            "EN": "show, perform, action"
+        },
+        {
+            "VN": "em trai",
+            "EN": "younger brother"
+        },
+        {
+            "VN": "diễn viên hài",
+            "EN": "comedian"
+        },
+        {
+            "VN": "yêu",
+            "EN": "love, loves, loving"
+        },
+        {
+            "VN": "người mẫu",
+            "EN": "model, models"
+        },
+        {
+            "VN": "bố mẹ",
+            "EN": "parents"
+        },
+        {
+            "VN": "đứa con",
+            "EN": "child, children, baby"
+        },
+        {
+            "VN": "nấu ăn",
+            "EN": "cook, cooks, cooking"
+        },
+        {
+            "VN": "sinh viên",
+            "EN": "student, the students, students"
+        },
+        {
+            "VN": "nấu",
+            "EN": "to cook, cook, cooking"
+        },
+        {
+            "VN": "trở thành",
+            "EN": "become, get, becoming"
+        },
+        {
+            "VN": "đô",
+            "EN": "dollar"
+        },
+        {
+            "VN": "trăm",
+            "EN": "hundred"
+        },
+        {
+            "VN": "mua",
+            "EN": "buy"
+        },
+        {
+            "VN": "đi nào",
+            "EN": "let's go"
+        },
+        {
+            "VN": "đồng",
+            "EN": "VND, dong, bronze"
+        },
+        {
+            "VN": "mua sắm",
+            "EN": "shop, shopping"
+        },
+        {
+            "VN": "đi",
+            "EN": "travel, wear (refers to shoes), to go"
+        },
+        {
+            "VN": "nghìn",
+            "EN": "thousand, thousands, 1000"
+        },
+        {
+            "VN": "chiếc váy",
+            "EN": "skirt"
+        },
+        {
+            "VN": "đẹp",
+            "EN": "beautiful, pretty"
+        },
+        {
+            "VN": "chiếc áo",
+            "EN": "shirt"
+        },
+        {
+            "VN": "rẻ",
+            "EN": "cheap"
+        },
+        {
+            "VN": "thật",
+            "EN": "real, so, really"
+        },
+        {
+            "VN": "đắt tiền",
+            "EN": "expensive"
+        },
+        {
+            "VN": "cửa hàng",
+            "EN": "store"
+        },
+        {
+            "VN": "quá",
+            "EN": "too, so, very"
+        },
+        {
+            "VN": "này",
+            "EN": "this, these, hey"
+        },
+        {
             "VN": "ga",
             "EN": "station, gas"
         },
@@ -455,6 +587,10 @@
         {
             "VN": "là",
             "EN": "is, am, being"
+        },
+        {
+            "VN": "chào",
+            "EN": "hello, greets, hi"
         }
     ]
 }
