@@ -15,8 +15,8 @@ def load_data() -> dict:
     return data
 
 
-def select_question_dataset(words_dict: dict, vn_to_en: bool=True) -> dict:
-    if vn_to_en:
+def select_question_dataset(words_dict: dict, vn_to_en: str=":vn: VN to EN :en:") -> dict:
+    if vn_to_en == ":vn: VN to EN :en:":
         word_to_guess_lg = "VN"
         word_options_lg  = "EN"
     else:
@@ -69,17 +69,21 @@ if "good_answer" not in st.session_state:
 if "bad_answer" not in st.session_state:
     st.session_state["bad_answer"] = ""
 
-if "vn_to_en" not in st.session_state:
-    st.session_state["vn_to_en"] = False
-
-st.session_state["vn_to_en"] = st.toggle("Vietnamese to English" if st.session_state["vn_to_en"] else "English to Vietnamese")
-
-translation_question = select_question_dataset(words_dict=st.session_state["words_dict"], vn_to_en=st.session_state["vn_to_en"])
 
 st.title("Hello Learners :wave:!")
+st.header("Let's make a small game. I give you a word, and you try to give me the english or vietnamese translation. Let's go.")
 
-st.subheader("Let's make a small game. I give you vietnamese word, and you try to give me the english translation. Let's go.")
-st.write(f"What is the english translation of the word *{translation_question.word_to_guess}*?")
+change_lang = st.radio(
+    "English to Vietnamese or Vietnames to English?",
+    ["VN to EN", "EN to VN"]
+)
+
+translation_question = select_question_dataset(
+    words_dict=st.session_state["words_dict"], 
+    vn_to_en=change_lang
+)
+
+st.subheader(f"What is the english translation of the word \"**{translation_question.word_to_guess}**\"?")
 
 word_options_shuffled = translation_question.word_options.copy()
 random.shuffle(word_options_shuffled)
@@ -87,19 +91,19 @@ col1, col2, col3, col4 = st.columns(4)
 
 with col1:
     word = word_options_shuffled[0]
-    st.button(label=word, key=word, on_click=check_result, args=[word], use_container_width=True)
+    st.button(label=f"**{word}**", key=word, on_click=check_result, args=[word], use_container_width=True)
 
 with col2:
     word = word_options_shuffled[1]
-    st.button(label=word, key=word, on_click=check_result, args=[word], use_container_width=True)
+    st.button(label=f"**{word}**", key=word, on_click=check_result, args=[word], use_container_width=True)
 
 with col3:
     word = word_options_shuffled[2]
-    st.button(label=word, key=word, on_click=check_result, args=[word], use_container_width=True)
+    st.button(label=f"**{word}**", key=word, on_click=check_result, args=[word], use_container_width=True)
 
 with col4:
     word = word_options_shuffled[3]
-    st.button(label=word, key=word, on_click=check_result, args=[word], use_container_width=True)
+    st.button(label=f"**{word}**", key=word, on_click=check_result, args=[word], use_container_width=True)
 
 st.write(st.session_state["good_answer"] if st.session_state["good_answer"] else st.session_state["bad_answer"])
 
